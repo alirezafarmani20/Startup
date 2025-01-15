@@ -23,7 +23,7 @@ const brands = [google, microsoft, airbnb, facebook, spotify]
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
-        <div class="flex items-center justify-between flex-col sm:flex-row gap-3 sm:gap-0 my-3">
+        <div class="flex items-center justify-between flex-col sm:flex-row gap-5 sm:gap-0 my-3">
           <!--brands box-->
           <img v-for="brand in brands" :src="brand" alt="brands" />
         </div>
