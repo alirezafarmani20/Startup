@@ -6,8 +6,12 @@ import Container from '@/layouts/Container.vue'
 <template>
   <div class="w-full bg-[#74C69D] h-[542px] sm:h-[486px]">
     <Container>
-      <div class="w-full flex flex-col sm:flex-row items-center sm:justify-around sm:py-6 sm:items-center">
-        <div class="flex flex-col text-balance items-start gap-1 sm:gap-4 order-2 sm:order-1 sm:w-[516px] sm:h-[299px] ">
+      <div
+        class="w-full flex flex-col sm:flex-row items-center sm:justify-around sm:py-6 sm:items-center"
+      >
+        <div
+          class="flex flex-col text-balance items-start gap-1 sm:gap-4 order-2 sm:order-1 sm:w-[516px] sm:h-[299px]"
+        >
           <!--textt box-->
           <span class="uppercase text-[#FFFFFF] font-bold tracking-[10px]">welcome</span>
           <h2 class="text-[#FFFFFF] font-medium text-[25px]">
