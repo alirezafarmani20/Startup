@@ -1,5 +1,10 @@
+<script setup>
+import SiteMap from '@/components/SiteMap.vue';
+</script>
+
 <template>
   <div>
-    <h2>portfolio page</h2>
+    <!--page map component-->
+    <SiteMap page-title="work" page-name="portfolio" />
   </div>
 </template>

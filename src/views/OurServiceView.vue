@@ -1,7 +1,10 @@
-<script setup></script>
+<script setup>
+import SiteMap from '@/components/SiteMap.vue';
+</script>
 
 <template>
   <div>
-    <h2>our service page</h2>
+    <!--page map component-->
+    <SiteMap page-title="plan" page-name="our service" />
   </div>
 </template>

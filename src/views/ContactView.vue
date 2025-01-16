@@ -1,5 +1,10 @@
+<script setup>
+import SiteMap from '@/components/SiteMap.vue';
+</script>
+
 <template>
   <div>
-    <h2>contact page</h2>
+    <!--page map component-->
+    <SiteMap page-name="contact us" />
   </div>
 </template>
