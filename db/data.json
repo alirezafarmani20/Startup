@@ -1,0 +1,28 @@
+{
+    "team": [
+        {
+            "id": "1",
+            "user_image": "../src/assets/images/user1.png",
+            "user_name": "peg legge",
+            "job": "cio"
+        },
+        {
+            "id": "2",
+            "user_image": "../src/assets/images/user2.png",
+            "user_name": "richard guerra",
+            "job": "cto"
+        },
+        {
+            "id": "3",
+            "user_image": "../src/assets/images/user3.png",
+            "user_name": "alexander stolz",
+            "job": "designer"
+        },
+        {
+            "id": "4",
+            "user_image": "../src/assets/images/user4.png",
+            "user_name": "janet bray",
+            "job": "developer"
+        }
+    ]
+}
