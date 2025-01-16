@@ -10,7 +10,7 @@ import Container from '@/layouts/Container.vue'
         class="w-full flex flex-col sm:flex-row items-center sm:justify-around sm:py-6 sm:items-center"
       >
         <div
-          class="flex flex-col text-balance items-start gap-1 sm:gap-4 order-2 sm:order-1 sm:w-[516px] sm:h-[299px]"
+          class="flex flex-col text-balance items-start gap-1 sm:gap-4 order-2 sm:order-1 sm:w-[516px] sm:h-[299px] my-3"
         >
           <!--textt box-->
           <span class="uppercase text-[#FFFFFF] font-bold tracking-[10px]">welcome</span>
