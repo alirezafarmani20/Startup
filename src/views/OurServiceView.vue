@@ -1,5 +1,5 @@
 <script setup>
-import SiteMap from '@/components/SiteMap.vue';
+import SiteMap from '@/components/SiteMap.vue'
 </script>
 
 <template>

@@ -23,6 +23,7 @@ team.fetchTeam()
           <!--image box-->
           <div
             v-for="team in team.getTeamData"
+            :key="team.id"
             class="w-[289px] h-[319px] my-4 shadow-[6px_4px_6px_5px_] shadow-[#DBC9FF] rounded-[3px]"
           >
             <div class="flex items-center justify-center mt-5">

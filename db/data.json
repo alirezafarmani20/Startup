@@ -4,7 +4,7 @@
             "id": "1",
             "user_image": "../src/assets/images/user1.png",
             "user_name": "peg legge",
-            "job": "cio"
+            "job": "ceo"
         },
         {
             "id": "2",
@@ -23,6 +23,40 @@
             "user_image": "../src/assets/images/user4.png",
             "user_name": "janet bray",
             "job": "developer"
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "image": "../src/assets/images/desctop-portfolio.png"
+        },
+        {
+            "id": "2",
+            "image": "../src/assets/images/desctop-portfolio2.png"
+        },
+        {
+            "id": "3",
+            "image": "../src/assets/images/desctop-portfolio3.png"
+        },
+        {
+            "id": "4",
+            "image": "../src/assets/images/desctop-portfolio4.png"
+        },
+        {
+            "id": "5",
+            "image": "../src/assets/images/desctop-portfolio5.png"
+        },
+        {
+            "id": "6",
+            "image": "../src/assets/images/desctop-portfolio6.png"
+        },
+        {
+            "id": "7",
+            "image": "../src/assets/images/desctop-portfolio7.png"
+        },
+        {
+            "id": "8",
+            "image": "../src/assets/images/desctop-portfolio8.png" 
         }
     ]
 }

@@ -1,6 +1,8 @@
 import { defineStore } from 'pinia'
 import axios from 'axios'
-
+// base url
+const url = 'http://localhost:3000'
+//create store for team
 export const useTeamStore = defineStore('teamStore', {
   state: () => ({
     loading: true,
@@ -12,7 +14,7 @@ export const useTeamStore = defineStore('teamStore', {
   actions: {
     async fetchTeam() {
       try {
-        const response = await axios.get('http://localhost:3000/team')
+        const response = await axios.get(`${url}/team`)
         this.team = response.data
         this.loading = false
         console.log(response.data)
