@@ -2,10 +2,12 @@
 //import components
 import Button from './Button.vue'
 import vector from '@/assets/icons/vector.png'
+// set props
 defineProps({
   plan: String,
   price: String,
 })
+// capabilities list
 const Capabilities = [
   {
     id: '1',
